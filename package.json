@@ -1,9 +1,10 @@
 {
-  "name": "next-template",
+  "name": "resend-email-nextjs-tailwind-demo",
   "version": "0.0.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "deploy": "git add . && git commit -m 'Build' && git push",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
