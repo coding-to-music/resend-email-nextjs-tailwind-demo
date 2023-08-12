@@ -6,15 +6,20 @@ https://github.com/coding-to-music/resend-email-nextjs-tailwind-demo
 
 https://resend-email-nextjs-tailwind-demo.vercel.app
 
-From / By Colby Fayock https://github.com/colbyfayock/my-tagged-uploads
+From / By Colby Fayock  https://github.com/colbyfayock/demo-email-signup-starter
+
+https://github.com/colbyfayock/my-react-email
+
+https://resend.com/overview
+
+https://demo-email-signup-starter.vercel.app/
 
 Demo for tutorial [How to Automatically Tag & Categorize Images Using AI with Google Vision & Cloudinary](https://www.youtube.com/watch?v=3OeEa2cZABM)
 
-📝 Article: https://spacejelly.dev/posts/how-to-automatically-tag-categorize-images-using-ai-with-google-vision-cloudinary/
+📝 Article: https://spacejelly.dev/posts/create-email-templates-with-react-js-using-react-email/
 
-📺 YouTube: https://www.youtube.com/watch?v=3OeEa2cZABM
+📺 YouTube: https://www.youtube.com/watch?v=D4pS4b9-DgA&ab_channel=ColbyFayock
 
-https://cloud.google.com/vision/
 
 <!-- <div style="text-align:center;">
   <img src="/images/chakra.jpg" alt="Image" />
