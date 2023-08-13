@@ -1,10 +1,12 @@
 import Link from "next/link"
+// import Icon from "@/src/components/icons"
+import { MainNav } from "@/src/components/main-nav"
+// import { ThemeToggle } from "@/src/components/theme-toggle"
+import { buttonVariants } from "@/src/components/ui/button"
+
+// import { Github } from "lucide-react"
 
 import { siteConfig } from "@/config/site"
-import { buttonVariants } from "@/src/components/ui/button"
-import { Icons } from "@/src/components/icons"
-import { MainNav } from "@/src/components/main-nav"
-import { ThemeToggle } from "@/src/components/theme-toggle"
 
 export function SiteHeader() {
   return (
@@ -13,7 +15,7 @@ export function SiteHeader() {
         <MainNav items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
-            <Link
+            {/* <Link
               href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
@@ -24,11 +26,11 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.gitHub className="h-5 w-5" />
+                <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </div>
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href={siteConfig.links.twitter}
               target="_blank"
               rel="noreferrer"
@@ -39,11 +41,11 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.twitter className="h-5 w-5 fill-current" />
+                <Icon.twitter className="h-5 w-5 fill-current" />
                 <span className="sr-only">Twitter</span>
               </div>
-            </Link>
-            <ThemeToggle />
+            </Link> */}
+            {/* <ThemeToggle /> */}
           </nav>
         </div>
       </div>
