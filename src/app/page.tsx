@@ -1,4 +1,5 @@
-import SignupForm from '@/src/components/signup-form';
+import SignupForm from "@/src/components/signup-form"
+import { Analytics } from "@vercel/analytics/react"
 
 export default function IndexPage() {
   return (
@@ -8,6 +9,7 @@ export default function IndexPage() {
           Get awesome stuff to your inbox!
         </h1>
         <SignupForm />
+        <Analytics />
       </div>
     </section>
   )
