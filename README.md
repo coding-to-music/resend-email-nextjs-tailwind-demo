@@ -6,7 +6,7 @@ https://github.com/coding-to-music/resend-email-nextjs-tailwind-demo
 
 https://resend-email-nextjs-tailwind-demo.vercel.app
 
-From / By Colby Fayock  https://github.com/colbyfayock/demo-email-signup-starter
+From / By Colby Fayock https://github.com/colbyfayock/demo-email-signup-starter
 
 https://github.com/colbyfayock/my-react-email
 
@@ -19,7 +19,6 @@ Demo for tutorial [How to Automatically Tag & Categorize Images Using AI with Go
 📝 Article: https://spacejelly.dev/posts/create-email-templates-with-react-js-using-react-email/
 
 📺 YouTube: https://www.youtube.com/watch?v=D4pS4b9-DgA&ab_channel=ColbyFayock
-
 
 <!-- <div style="text-align:center;">
   <img src="/images/chakra.jpg" alt="Image" />
@@ -35,6 +34,7 @@ nvm use 18
 ## Environment variables:
 
 ```java
+
 ```
 
 ## GitHub
@@ -55,4 +55,35 @@ git push -u origin main
 
 ```bash
 npx create-next-app -e https://github.com/colbyfayock/demo-email-signup-starter
+```
+
+## Send demo email
+
+### cURL
+
+```java
+curl -X POST 'https://api.resend.com/emails' \
+  -H 'Authorization: Bearer RESEND_API_KEY_HERE' \
+  -H 'Content-Type: application/json' \
+  -d $'{
+    "from": "onboarding@resend.dev",
+    "to": "DESTINATION_EMAIL_ADDRESS",
+    "subject": "Hello World",
+    "html": "<p>Congrats on sending your <strong>first email</strong>!</p>"
+  }'
+```
+
+### NODE.js
+
+```java
+import { Resend } from 'resend';
+
+const resend = new Resend('RESEND_API_KEY_HERE');
+
+resend.emails.send({
+  from: 'onboarding@resend.dev',
+  to: 'DESTINATION_EMAIL_ADDRESS',
+  subject: 'Hello World',
+  html: '<p>Congrats on sending your <strong>first email</strong>!</p>'
+});
 ```
