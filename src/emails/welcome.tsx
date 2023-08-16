@@ -37,7 +37,7 @@ export const WelcomeEmail = ({
             marginBottom: "16px",
           }}
         >
-          Click here to log in with this magic link
+          Click here to go to the website
         </Link>
         <Text style={{ ...text, marginBottom: "14px" }}>
           Or, copy and paste this temporary login code:
@@ -70,6 +70,7 @@ export const WelcomeEmail = ({
           height="32"
           alt="Notion's Logo"
         />
+        <Text style={footer}>Here is the footer text</Text>
       </Container>
     </Body>
   </Html>
@@ -114,7 +115,7 @@ const text = {
 }
 
 const footer = {
-  color: "#898989",
+  color: "blueviolet",
   fontFamily:
     "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
   fontSize: "12px",
