@@ -3609,7 +3609,7 @@ react-dom@18.2.0, react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-email@1.9.4:
+react-email@^1.9.4:
   version "1.9.4"
   resolved "https://registry.yarnpkg.com/react-email/-/react-email-1.9.4.tgz#72000e79454ff013563dddc1dff22c8b1207fa29"
   integrity sha512-DNUQb7xzAlMga2ZppG57bnWhJnqOEcTYzxNvLA4IVCiYJkgPNVukFMOZVG2OuQ0W8ddiF6bLZBKDZHnnIenbpw==

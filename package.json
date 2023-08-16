@@ -19,6 +19,7 @@
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@react-email/button": "0.0.10",
+    "@react-email/components": "^0.0.7",
     "@react-email/html": "0.0.4",
     "@vercel/analytics": "^1.0.2",
     "class-variance-authority": "^0.4.0",
