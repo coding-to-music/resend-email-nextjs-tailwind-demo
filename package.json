@@ -21,6 +21,7 @@
     "@react-email/button": "0.0.10",
     "@react-email/components": "^0.0.7",
     "@react-email/html": "0.0.4",
+    "@react-email/img": "0.0.5",
     "@vercel/analytics": "^1.0.2",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
