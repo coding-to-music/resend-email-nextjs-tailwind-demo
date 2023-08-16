@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "email": "email dev --dir src/emails",
     "deploy": "git add . && git commit -m 'Build' && git push",
     "build": "next build",
     "start": "next start",
@@ -17,6 +18,8 @@
   "dependencies": {
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
+    "@react-email/button": "0.0.10",
+    "@react-email/html": "0.0.4",
     "@vercel/analytics": "^1.0.2",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
@@ -25,6 +28,7 @@
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-email": "1.9.4",
     "sharp": "^0.31.3",
     "tailwind-merge": "^1.12.0",
     "tailwindcss-animate": "^1.0.5"
