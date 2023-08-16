@@ -12,7 +12,7 @@ export async function GET() {
     from: `${senderTxt}`,
     to: `${recipientTxt}`,
     subject: `${subjectTxt}`,
-    react: WelcomeEmail(),
+    react: WelcomeEmail({ firstName: "John" }) as React.ReactElement,
   })
 
   return NextResponse.json({ status: "Ok" })

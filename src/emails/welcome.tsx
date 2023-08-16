@@ -11,8 +11,8 @@ import {
   Text,
 } from "@react-email/components"
 
-interface NotionMagicLinkEmailProps {
-  loginCode?: string
+interface WelcomeEmailProps {
+  firstName?: string
 }
 
 const baseUrl = process.env.VERCEL_URL
@@ -20,8 +20,8 @@ const baseUrl = process.env.VERCEL_URL
   : ""
 
 export const WelcomeEmail = ({
-  loginCode = "sparo-ndigo-amurt-secan",
-}: NotionMagicLinkEmailProps) => (
+  firstName = "sparo-ndigo-amurt-secan",
+}: WelcomeEmailProps) => (
   <Html>
     <Head />
     <Preview>Log in with this magic link</Preview>
@@ -42,7 +42,7 @@ export const WelcomeEmail = ({
         <Text style={{ ...text, marginBottom: "14px" }}>
           Or, copy and paste this temporary login code:
         </Text>
-        <code style={code}>{loginCode}</code>
+        <code style={code}>{firstName}</code>
         <Text
           style={{
             ...text,
