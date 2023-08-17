@@ -27,7 +27,7 @@ export const WelcomeEmail = ({
     <Preview>Log in with this magic link</Preview>
     <Body style={main}>
       <Container style={container}>
-        <Heading style={h1}>Login</Heading>
+        <Heading style={h1}>Welcome</Heading>
         <Link
           href="https://notion.so"
           target="_blank"

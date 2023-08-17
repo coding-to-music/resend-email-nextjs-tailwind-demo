@@ -1,9 +1,9 @@
 import * as React from "react"
 import Link from "next/link"
+import { cn } from "@/src/lib/utils"
 
 import { NavItem } from "@/types/nav"
 import { siteConfig } from "@/config/site"
-import { cn } from "@/src/lib/utils"
 
 interface MainNavProps {
   items?: NavItem[]
@@ -14,6 +14,12 @@ export function MainNav({ items }: MainNavProps) {
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="flex items-center space-x-2">
         <span className="inline-block font-bold">{siteConfig.name}</span>
+      </Link>
+      <Link href="/preview/welcome" className="flex items-center space-x-2">
+        <span className="inline-block font-bold">Email Template Examples</span>
+      </Link>
+      <Link href="/api/email" className="flex items-center space-x-2">
+        <span className="inline-block font-bold">Email API</span>
       </Link>
       {items?.length ? (
         <nav className="flex gap-6">
